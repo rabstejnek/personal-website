@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin:auto;
+
+    width:50%;
+    min-height:100%;
+    background-color:white;
+    padding-bottom:1rem;
+
+}
+
+html {
+    height:100%;
+    margin:0;
+
+    background-color:black;
+}
+
+canvas {
+    margin:auto;
+
+    max-height:700px;
+    max-width:700px;
+    padding:0;
+    display:block;
+}
+
+#header {
+    text-align:center;
+    margin:auto;
+    border-bottom:solid;
+}
+
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+#menu {
+    background-color:grey;
+    float:left;
+    border-right:solid;
+}
+#menu:hover, div#menu:active {
+    background-color:red;
+}
